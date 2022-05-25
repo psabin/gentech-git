@@ -100,7 +100,7 @@ Record changes
 </details>
 
 <details>
-<summary>3) Auto stage changes to the commit</summary>
+<summary>3) Auto stage changes and commit</summary>
 <code>git commit -am 'commit message here' </code>
 </details>
 
@@ -125,29 +125,67 @@ Distribute the changes without everyone
 </details>
 
 <details>
-<summary>2) List local branches</summary>
-<code>git branch </code>
+<summary>2) Push changes in freshly created branch</summary>
+<code>git push -u origin &lt;branch&gt;  </code>
 </details>
 
 <details>
-<summary>3) List remote branches</summary>
-<code>git branch --remotes </code>
+<summary>3) Push tags</summary>
+<code>git push origin --tags </code>
 </details>
 
 <details>
-<summary>4) Delete local branch</summary>
-<code>git branch --delete test </code>
+<summary>4) Delete remote branch that is longer in local</summary>
+<code>git push --prune </code>
 </details>
 
 <details>
-<summary>5) Rename branch</summary>
-<code>git branch -m &lt;old branch&gt; &lt;new branch&gt; </code>
+<summary>5) Delete a branch in remote</summary>
+<code>git push origin :&lt;branch&gt; </code>
 </details>
 
+
+## Reverting (`git-revert`)
+
+Reverse the commit
+
+<details>
+<summary>1) Revert last commit</summary>
+<code>git revert HEAD </code>
+</details>
+
+<details>
+<summary>2) Revert 4th commit</summary>
+<code>git revert &lt;4th commit hash&gt; </code>
+</details>
+
+## Viewing History (`git-log`)
+
+View history of all the commits
+
+<details>
+<summary>1) View number of commits by author</summary>
+<code>git shortlog -s</code>
+</details>
+
+<details>
+<summary>2) View commit log in oneline </summary>
+<code>git log --oneline  </code>
+</details>
+
+<details>
+<summary>3) View commit log between ranges</summary>
+<code>git log &lt;newer commit hash&gt;...&lt;older commit hash&gt; </code>
+</details>
+
+<details>
+<summary>4) View commit log with only 1 commit per branch</summary>
+<code>git log --first-parent  </code>
+</details>
+
+Related: Do check `git-reflog` too
 
 ## Merging
-## Reverting
 ## Rebasing
 ## Conflict Handling
 ## Tagging
-## Viewing History
