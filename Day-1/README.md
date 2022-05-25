@@ -41,3 +41,11 @@
 ## Discuss problems we have faced with git
 
 - Time to share experience
+
+- During Git Merge, lost changes
+- Have set Git rules:
+  - Push everyday before you leave office
+  - Two branch model, master and develop
+  - Feature branch
+  - Merge Branch as backup
+- Force pushes (created problems)

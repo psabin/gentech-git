@@ -86,3 +86,4 @@ Welcome to the git workshop repository. We will be learning git from this repo.
 
 - Define right Git model for each products
 - Q/A
+ 
