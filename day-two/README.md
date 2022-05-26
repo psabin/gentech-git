@@ -80,6 +80,20 @@ Take changes from working tree to Staging area
 
 Related: how to unstage staged files? see `git-restore`
 
+## Reverting (`git-revert`)
+
+Reverse the commit
+
+<details>
+<summary>1) Revert last commit</summary>
+<code>git revert HEAD </code>
+</details>
+
+<details>
+<summary>2) Revert 4th commit</summary>
+<code>git revert &lt;4th commit hash&gt; </code>
+</details>
+
 ## Commiting (`git-commit`)
 
 Record changes 
@@ -104,7 +118,7 @@ Record changes
 <code>git commit -am 'commit message here' </code>
 </details>
 
-## Undoing
+## Undoing (`git-reset`)
 
 1) Remove last commit
 2) Remove last commit along with the changes
@@ -142,21 +156,6 @@ Distribute the changes without everyone
 <details>
 <summary>5) Delete a branch in remote</summary>
 <code>git push origin :&lt;branch&gt; </code>
-</details>
-
-
-## Reverting (`git-revert`)
-
-Reverse the commit
-
-<details>
-<summary>1) Revert last commit</summary>
-<code>git revert HEAD </code>
-</details>
-
-<details>
-<summary>2) Revert 4th commit</summary>
-<code>git revert &lt;4th commit hash&gt; </code>
 </details>
 
 ## Viewing History (`git-log`)
