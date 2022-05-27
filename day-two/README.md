@@ -120,15 +120,22 @@ Record changes
 
 ## Undoing (`git-reset`)
 
-1) Remove last commit
-2) Remove last commit along with the changes
+
+<details>
+<summary>1) Remove last commit</summary>
+<code>git reset HEAD~ --hard</code>
+</details>
+
+<details>
+<summary>2) Remove last commit along with the changes</summary>
+<code>git reset HEAD~ --soft</code>
+</details>
 
 ## Checking Status (`git-status`)
 
 Status of working tree 
 
 1) Check how many files are staged or unstaged
-
 ## Pushing (`git-push`)
 
 Distribute the changes without everyone
