@@ -135,7 +135,13 @@ Record changes
 
 Status of working tree 
 
-1) Check how many files are staged or unstaged
+<details>
+<summary>1) Check how many files are staged or unstaged</summary>
+<code>git status</code>
+</details>
+
+Note: Check manual pages on diffrent track paths like M, A, T ...
+
 ## Pushing (`git-push`)
 
 Distribute the changes without everyone
