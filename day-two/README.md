@@ -198,6 +198,21 @@ View history of all the commits
 Related: Do check `git-reflog` too
 
 ## Merging
+
+Join two different history
+
+1) Merge one branch to main
+2) Merge 2 branches to main
+3) Merge with merge commit
+
 ## Rebasing
+
+Rewrite history
+
+1) Rebase changes from another branch
+2) Remove commit from history
+3) Squash commits to one
+4) Edit previous commit
+
 ## Conflict Handling
 ## Tagging
